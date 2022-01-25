@@ -2,7 +2,7 @@ a {text-decoration: none;}
 
 .button1 { /*Referência: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3*/
   display: inline-block;
-  padding: 30px 50px;
+  padding: 40px 50px;
   font-size: 35px;
   cursor: pointer;
   text-align: center;
@@ -17,7 +17,7 @@ a {text-decoration: none;}
 
 .button2 {
   display: inline-block;
-  padding: 30px 50px;
+  padding: 40px 50px;
   font-size: 35px;
   cursor: pointer;
   text-align: center;
@@ -32,7 +32,7 @@ a {text-decoration: none;}
 
 .button3 {
   display: inline-block;
-  padding: 30px 50px;
+  padding: 40px 50px;
   font-size: 35px;
   cursor: pointer;
   text-align: center;
@@ -47,7 +47,7 @@ a {text-decoration: none;}
 
 .button4 {
   display: inline-block;
-  padding: 30px 50px;
+  padding: 40px 50px;
   font-size: 35px;
   cursor: pointer;
   text-align: center;
@@ -62,7 +62,7 @@ a {text-decoration: none;}
 
 .button5 {
   display: inline-block;
-  padding: 30px 50px;
+  padding: 40px 50px;
   font-size: 35px;
   cursor: pointer;
   text-align: center;
@@ -119,8 +119,8 @@ a {text-decoration: none;}
   background-color:#E0EEEE;
   border:solid 2px #5F9EA0;
   border-radius:10px;
-  width:300px;
-  height:32px;
+  width:510px;
+  height:60px;
 }
 
 #txtBusca{
@@ -129,20 +129,6 @@ a {text-decoration: none;}
   padding-left:5px;
   font-size:18px;
   border:none;
-  height:32px;
-  width:191px;
-}
-
-#btnBusca{
-  border:none;
-  float:left;
-  height:32px;
-  border-radius:0 7px 7px 0;
-  width:70px;
-  font-weight:bold;
-  background:#5F9EA0;
-}
-
-#divBusca img{
-  float:left;
+  height:60px;
+  width:505px;
 }
