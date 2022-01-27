@@ -104,6 +104,21 @@ a {text-decoration: none;}
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
+
+.button_login {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #40ffef;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
         
 .button1:hover {background-color: #777777}
         
@@ -161,6 +176,14 @@ a {text-decoration: none;}
           transform: translateY(4px);
 }
 
+.button_login:hover {background-color: #777777}
+        
+.button_login:active {
+          background-color: #ffffff;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+}
+
 #divBusca{
   background-color:#E0EEEE;
   border:solid 2px #5F9EA0;
@@ -169,14 +192,34 @@ a {text-decoration: none;}
   height:60px;
 }
 
+#divLogin{
+  background-color:#b4f5f5;
+  border:solid 2px #888888;
+  border-radius:10px;
+  width:180px;
+  height:20px;
+}
+
 #txtBusca{
   float:left;
   background-color:transparent;
   padding-left:5px;
+  text-align: center;
   font-size:18px;
   border:none;
   height:60px;
   width:505px;
+}
+
+#txtLogin{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  text-align: center;
+  font-size:18px;
+  border:none;
+  height:20px;
+  width:180px;
 }
 
 h2{
