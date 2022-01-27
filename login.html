@@ -20,9 +20,20 @@
             <input type="text" id="txtLogin" placeholder="Senha"/>
         </div>
         <br>
-        <button class="button_login">Acessar</button></a>
-        <button class="button_login">Cadastrar</button></a>
+        <button class="button_login" onclick="verificaUsuario()">Acessar</button></a>
+        <button class="button_login" onclick="cadastraUsuario()">Cadastrar</button></a>
     </div>
+
+    <script>
+        function verificaUsuario() {
+          alert("Usuário incorreto!");
+        }
+        
+        function cadastraUsuario() {
+          alert("Sistema de cadastro não disponível. Entre emc ontato com o suporte: 48 998-353-271");
+        }
+
+    </script>
 
 </body>
 
