@@ -153,6 +153,14 @@ a {text-decoration: none;}
           transform: translateY(4px);
 }
 
+.button7:hover {background-color: #777777}
+        
+.button7:active {
+          background-color: #ffffff;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+}
+
 #divBusca{
   background-color:#E0EEEE;
   border:solid 2px #5F9EA0;
