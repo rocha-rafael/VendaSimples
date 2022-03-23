@@ -201,6 +201,7 @@ a {text-decoration: none;}
 
 #divMenu_principal{
   /*Div para alinhar o menu no mio da pagina, vertical e horizontalmente*/
+  background-color:#E0EEEE;
 }
 
 #divBusca{
